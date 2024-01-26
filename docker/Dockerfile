@@ -32,4 +32,4 @@ RUN python3.10 -m venv "${VIRTUAL_ENV}" \
     && cp poetry.lock "${BUILD_POETRY_LOCK}" \
     && rm -rf "${HOME}/.cache/*"
 
-CMD [ "../run-server.sh" ]
+CMD [ "/run-server.sh" ]
